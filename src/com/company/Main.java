@@ -4,6 +4,14 @@ public class Main {
 
     public static void main(String[] args) {
 
+        LengthString();
+        LengthMassive();
+
+        // Кастомный Length
+
+    }
+    public static void LengthString() {
+
         // Строка
         String str = "abcdefg"; // 7 символов
 
@@ -12,8 +20,12 @@ public class Main {
         for (int i : str.toCharArray()) count++;
         System.out.println(count);
 
+
+    }
+    public static void LengthMassive() {
+
         //Массив
-        int[] abc = new int[10];
+        int[] abc = new int[10]; // 10 ячеек
 
         int count2 = 0;
 
@@ -22,7 +34,7 @@ public class Main {
         }
         System.out.println(count2);
 
-        // Кастомный Length
+
 
     }
 }
